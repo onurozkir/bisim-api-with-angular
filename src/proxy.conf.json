@@ -1,0 +1,14 @@
+{
+  "/bisim/*": {
+    "target":  {
+      "host": "www.onurozkir.com/",
+      "protocol": "https:",
+      "port": 443
+    },
+    "pathRewrite": {"^/bisim" : ""},
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}
+
